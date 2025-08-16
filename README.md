@@ -188,7 +188,7 @@ Contributions are welcome. Keep changes small and focused. If you submit a PR:
 2. Fork and branch from `main`.
 3. Keep commits tidy and add a short description in the PR.
 
-Consider adding a `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` if you expect outside contributors.
+Look at [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for more details
 
 ## Troubleshooting
 
