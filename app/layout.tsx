@@ -1,9 +1,10 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
-import { ThemeProvider } from "@/components/theme-provider"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import { ThemeProvider } from "@/components/theme-provider";
+import "./globals.css";
+import { ScrollProvider } from "@/context/scroll-context";
 
 export const metadata: Metadata = {
   title: "The Only One - Python Developer & Security Enthusiast",
@@ -47,12 +48,12 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: light)", color: "#30ffff" },
     { media: "(prefers-color-scheme: dark)", color: "#30ffff" },
   ],
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -66,10 +67,15 @@ html {
         `}</style>
       </head>
       <body className="antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <ScrollProvider>{children}</ScrollProvider>
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }

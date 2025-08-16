@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Github, Twitter, Send, MapPin, Clock } from "lucide-react"
+import handleSubmit from "@/util/handleSubmit"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -16,15 +17,6 @@ export function ContactSection() {
     subject: "",
     message: "",
   })
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Create mailto link with form data
-    const mailtoLink = `mailto:theonlyone11k2@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
-    )}`
-    window.location.href = mailtoLink
-  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
@@ -73,7 +65,7 @@ export function ContactSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Let's{" "}
-            <span className="bg-gradient-to-r from-[#30ffff] to-[#2ef5fc] bg-clip-text text-transparent">Connect</span>
+            <span className="bg-gradient-to-r from-[#00cccc] to-[#03c2c9] dark:from-[#30ffff] dark:to-[#2ef5fc] bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to collaborate on something amazing? Have a project idea? Or just want to chat about code and

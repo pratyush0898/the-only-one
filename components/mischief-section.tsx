@@ -1,5 +1,3 @@
-"use client"
-
 import { Card, CardContent } from "@/components/ui/card"
 import { Sparkles, Code, Lightbulb, Zap, Heart, Rocket } from "lucide-react"
 
@@ -62,7 +60,7 @@ export function MischiefSection() {
             <Sparkles className="h-8 w-8 text-[#30ffff] animate-pulse" />
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
               Intentional{" "}
-              <span className="bg-gradient-to-r from-[#30ffff] to-[#2ef5fc] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#00cccc] to-[#03c2c9] dark:from-[#30ffff] dark:to-[#2ef5fc] bg-clip-text text-transparent">
                 Mischief
               </span>
             </h2>
@@ -132,7 +130,7 @@ export function MischiefSection() {
                 <Heart className="h-6 w-6 text-[#2ef5fc]" />
                 <Zap className="h-6 w-6 text-[#30ffff]" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#30ffff] to-[#2ef5fc] bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#00cccc] to-[#03c2c9] dark:from-[#30ffff] dark:to-[#2ef5fc] bg-clip-text text-transparent">
                 The Mischief Manifesto
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">

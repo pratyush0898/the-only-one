@@ -1,30 +1,60 @@
-# Next js portfolio
+# The Only One
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A modern, responsive portfolio website built with Next.js and TypeScript.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/nvmpratyush/v0-next-js-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/jvErNlazRr0)
+## Features
 
-## Overview
+- 💻 Modern and responsive design
+- 🌗 Light/Dark theme support
+- 📱 Mobile-friendly navigation
+- 📄 Multiple sections including:
+  - Hero section
+  - About section
+  - Projects showcase
+  - Skills display
+  - Collaboration opportunities
+  - Contact form
+  - Mischief section
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Tech Stack
 
-## Deployment
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - For type-safe code
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- Modern React practices with functional components
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/nvmpratyush/v0-next-js-portfolio](https://vercel.com/nvmpratyush/v0-next-js-portfolio)**
+1. Clone the repository
+```bash
+git clone https://github.com/pratyush0898/the-only-one.git
+```
 
-## Build your app
+2. Install dependencies
+```bash
+pnpm install
+```
 
-Continue building your app on:
+3. Run the development server
+```bash
+pnpm dev
+```
 
-**[https://v0.app/chat/projects/jvErNlazRr0](https://v0.app/chat/projects/jvErNlazRr0)**
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## How It Works
+## Project Structure
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```
+├── app/              # Next.js app directory
+├── components/       # React components
+│   └── ui/          # Reusable UI components
+├── context/         # React context providers
+├── lib/            # Utility functions
+├── public/         # Static assets
+├── styles/         # Global styles
+└── util/           # Additional utilities
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

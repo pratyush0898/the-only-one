@@ -1,5 +1,3 @@
-"use client"
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -94,7 +92,7 @@ export function ProjectsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Featured{" "}
-            <span className="bg-gradient-to-r from-[#30ffff] to-[#2ef5fc] bg-clip-text text-transparent">Projects</span>
+            <span className="bg-gradient-to-r from-[#00cccc] to-[#03c2c9] dark:from-[#30ffff] dark:to-[#2ef5fc] bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A showcase of my work in AI, cryptography, security, and automation—each project built with curiosity and
@@ -166,7 +164,7 @@ export function ProjectsSection() {
             className="border-[#30ffff]/30 hover:border-[#30ffff] hover:bg-[#30ffff]/10 bg-transparent"
             asChild
           >
-            <a href="https://github.com/TheOnlyOne-2k11" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/TheOnlyOne-2k11?tab=repositories" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5 mr-2" />
               View All Projects on GitHub
             </a>

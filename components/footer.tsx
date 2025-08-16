@@ -1,5 +1,3 @@
-"use client"
-
 import { Heart, Code, Zap } from "lucide-react"
 import Image from "next/image"
 
@@ -12,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Image src="/logo.png" alt="The Only One Logo" width={32} height={32} className="w-8 h-8" />
-              <span className="font-bold text-lg bg-gradient-to-r from-[#30ffff] to-[#2ef5fc] bg-clip-text text-transparent">
+              <span className="font-bold text-lg bg-gradient-to-r from-[#00cccc] to-[#03c2c9] dark:from-[#30ffff] dark:to-[#2ef5fc] bg-clip-text text-transparent">
                 The Only One
               </span>
             </div>
@@ -110,7 +108,7 @@ export function Footer() {
               <span>intentional mischief</span>
             </div>
 
-            <div className="text-sm text-muted-foreground">© 2024 The Only One. All rights reserved.</div>
+            <div className="text-sm text-muted-foreground">© 2024 The Only One by Pratyush. All rights reserved.</div>
           </div>
         </div>
       </div>
