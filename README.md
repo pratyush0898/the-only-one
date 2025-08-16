@@ -93,8 +93,6 @@ Add these to your `.env` file if you use the related features. Keep secrets out 
 
 ```env
 NEXT_PUBLIC_WEB3FORMS_API_KEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-NEXT_PUBLIC_SITE_TITLE="The Only One"
-NEXT_PUBLIC_ANALYTICS_ID=G-XXXXXXXXXX # optional
 ```
 
 The contact form in this project is wired to Web3Forms by default. You can swap it for Netlify Forms, Formspree, or a custom endpoint.
