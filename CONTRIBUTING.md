@@ -114,7 +114,7 @@ npm run lint
 
 ## Licensing and attribution
 
-All contributions are covered by the project license. This repository uses the Apache License 2.0. By submitting a pull request you agree to license your contributions under Apache 2.0.
+All contributions are covered by the project license. This repository uses the Apache License 2.0. By submitting a pull request you agree to license your contributions under MIT [LICENSE](LICENSE).
 
 If your change depends on or includes third party code, make sure the code is compatible with Apache 2.0 and include attribution where required.
 
